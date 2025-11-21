@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 import streamlit as st
 
-st.title("📊 Varredura de Ações da B3")
+st.title("📊 Varredura de Ações da B3 ANUAL")
 
 st.write(
     "Este app lê uma lista de tickers do arquivo **`IBOVDia_300925_sem_duplicadas.csv`**, "
