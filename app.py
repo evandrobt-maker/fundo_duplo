@@ -18,7 +18,7 @@ def baixar_mensal(ticker, period):
         df = yf.download(
             ticker,
             period=period,
-            interval="1y",
+            interval="1mo",
             auto_adjust=True,
             progress=False,
         )
