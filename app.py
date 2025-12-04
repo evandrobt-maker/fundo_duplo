@@ -80,10 +80,10 @@ if st.button("Rodar varredura"):
             if not df_mes_ant.empty:
                 valor = df_mes_ant["%_FechAbert_vs_MaxMin"].iloc[0]
                 if valor > 85:                                                                        # INÍCIO ALTERAÇÃO - abs(valor) > 85
-                    st.write("CANDLE POSITVO")                                                          
+                    st.write("> CANDLE POSITVO")                                                          
                     st.warning(f"{t}: %_FechAbert_vs_MaxMin mês {mes_ant}/{ano_ant} = {valor}")
                 if valor >-80 and valor <-50:
-                    st.write("                 CANDLE NEGATIVO")
+                    st.write(">                  CANDLE NEGATIVO")
                     st.warning(f"{t}: %_FechAbert_vs_MaxMin mês {mes_ant}/{ano_ant} = {valor}")       # FINAL ALTERAÇÃO
 
     if resultados:
