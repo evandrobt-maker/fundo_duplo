@@ -83,7 +83,7 @@ if st.button("Rodar varredura"):
                     st.write("CANDLE POSITVO")                                                          
                     st.warning(f"{t}: %_FechAbert_vs_MaxMin mês {mes_ant}/{ano_ant} = {valor}")
                 if valor >-80 and valor <-50:
-                    st.write("CANDLE NEGATIVO")
+                    st.write("                 ")
                     st.warning(f"{t}: %_FechAbert_vs_MaxMin mês {mes_ant}/{ano_ant} = {valor}")       # FINAL ALTERAÇÃO
 
     if resultados:
